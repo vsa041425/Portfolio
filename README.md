@@ -1,14 +1,23 @@
-# Capstone-Presentation
+## 👋 Hi, I'm Vinícius Alexandre
 
-This project analyzes SpaceX Falcon 9 launch data to explore factors influencing mission success. Data was collected via the SpaceX REST API and Wikipedia web scraping, then cleaned, transformed, and analyzed. Exploratory analysis revealed trends in payloads, launch sites, orbits, and success rates, with the Decision Tree Classifier delivering the best predictive performance.
+I'm a customer success strategist turned aspiring data scientist, currently pursuing an MBA in Data Science. With 6+ years of experience in business development, performance optimization, and client engagement across B2B and SaaS, I'm now focused on using **Python, SQL, and machine learning** to solve real-world problems through data.
 
-## Key Findings
-- Higher launch frequencies at a site correlate with higher success rates.
+---
+## 🚀 Capstone Project: Predicting SpaceX Falcon 9 Launch Success
 
-- Launch success rates steadily increased from 2013 to 2020.
+This project analyzes historical launch data from **SpaceX Falcon 9 missions** to uncover the drivers of mission success and build a predictive model. Data was collected using the **SpaceX REST API** and **web scraping from Wikipedia**, then cleaned, transformed, and explored using Python.
 
-- Orbits such as ES-L1, GEO, HEO, SSO, and VLEO achieved the highest success rates.
+The goal was to simulate a real-world data science workflow: from data ingestion and preprocessing to exploratory analysis, visualization, and machine learning model selection. Multiple classification algorithms were tested, with a **Decision Tree Classifier** providing the best performance.
 
-- KSC LC-39A had the most successful launches overall.
+This project reflects my ability to work with diverse datasets, apply supervised learning techniques, and communicate insights that support decision-making.
 
-- Almost all missions in recent years were successful.
+### 🔍 Key Insights
+- Success rates have improved steadily over time, especially since 2018  
+- Launch sites with higher volume (e.g., **KSC LC-39A**) show stronger performance  
+- Specific orbits (e.g., **GEO, SSO, ES-L1**) are associated with higher success rates  
+- Nearly all launches in recent years have been successful, indicating operational maturity
+
+### 🛠 Tools & Techniques
+- **Languages/Libraries**: Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn  
+- **Methods**: EDA, Data Cleaning, Feature Engineering, Classification Models  
+- **Technologies**: REST API, Web Scraping (BeautifulSoup), Jupyter Notebooks
